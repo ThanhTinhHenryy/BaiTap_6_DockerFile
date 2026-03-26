@@ -38,5 +38,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/itsyarushi:latest
-            ${{ secrets.DOCKER_USERNAME }}/itsyarushi:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/ITSYARUSHI:latest
+            ${{ secrets.DOCKER_USERNAME }}/ITSYARUSHI:${{ github.sha }}
